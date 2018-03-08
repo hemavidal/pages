@@ -26,7 +26,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Hemã Vidal
+          Hemã Vidal Negreiros Bezerra
         </Link>
         <p style={{fontSize:20, marginTop:10}}>Engenheiro de Software</p>
       </h1>

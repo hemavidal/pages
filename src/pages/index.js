@@ -146,6 +146,14 @@ const IndexPage = () => (
       <p>Conhecimentos de algoritmo. Linguagem Pascal. Linguagem Java</p>
     </ExperienceCard>
 
+    <ExperienceCard>
+      <p>Dezembro de 2008</p>
+      <img src='https://blogdoenem.com.br/wp-content/uploads//2014/12/colegio-motiva-joao-pessoa-resultado-enem-2013.jpg' style={{height:80}}/>
+      <h4>
+        Ensino Médio - Escola Motiva
+      </h4>
+    </ExperienceCard>
+
     <div style={{pageBreakBefore: 'always'}}/>
 
     <h1>Habilidades</h1>
