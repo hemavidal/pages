@@ -34,12 +34,12 @@ const IndexPage = () => (
   <div style={{ textAlign: 'center', width: '100%'}}>
     <h1>Sobre mim</h1>
     <p>
-      Eu sou um desenvolvedor apaixonado pelo javascript.
+      Eu sou um desenvolvedor fascinado pela linguagem JavaScript.
       Atualmente tenho trabalhado com aplicativos React + Redux e estudando frameworks JS para participar desta incrível linguagem assíncrona e seus benefícios.
-      Na minha experiência de P&D, trabalhei com o framework Electron Cross-Platform com o React + Redux para aprimorar o software desktop.
+      Nas minhas experiências, trabalhei com o framework Electron Cross-Platform com o React + Redux para aprimorar softwares desktop.
       A linguagem de programação que tenho como base é Java. Eu também trabalhei com framework JavaFX.
       Posso gerenciar banco de dados MongoDB e manter a integridade dos dados e usar técnicas de indexação para melhorar o desempenho das consultas.
-      Tenho habilidades para gerenciar Testing e CD/CI e evolução de software.
+      Tenho habilidades para gerenciar/configurar CD/CI usando Jenkins ou GitLab.
     </p>
     <div style={{pageBreakBefore: 'always'}}/>
     <h1>Experiência</h1>
@@ -64,6 +64,8 @@ const IndexPage = () => (
         Usamos o Electron com React + Redux no processo renderer do Electron. Utilizamos o GitLab CD/CI para gerenciar os builds.</p>
     </ExperienceCard>
 
+    <div style={{pageBreakBefore: 'always'}}/>
+
     <ExperienceCard>
       <p>Setembro de 2015 - Dezembro de 2016</p>
       <img src='http://splab.computacao.ufcg.edu.br/_/rsrc/1472778943502/config/customLogo.gif?revision=2' style={{width:200}}/>
@@ -84,6 +86,8 @@ const IndexPage = () => (
       </p>
     </ExperienceCard>
 
+    <div style={{pageBreakBefore: 'always'}}/>
+
     <ExperienceCard>
       <p>Janeiro de 2014 - Agosto de 2015</p>
       <img src='http://splab.computacao.ufcg.edu.br/_/rsrc/1472778943502/config/customLogo.gif?revision=2' style={{width:200}}/>
@@ -102,9 +106,11 @@ const IndexPage = () => (
       </p>
     </ExperienceCard>
 
+
+
     <ExperienceCard>
       <p>Fevereiro de 2011 - Março de 2013</p>
-      <img src='http://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png' style={{width:200}}/>
+      <img src='http://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png' style={{height:120}}/>
       <h2>UFCG</h2>
       <h3>
         Monitor de Programação 1
@@ -117,6 +123,30 @@ const IndexPage = () => (
         tutoria aos alunos com a linguagem de programação Python.
       </p>
     </ExperienceCard>
+
+    <br/>
+
+    <h1>Formação Acadêmica</h1>
+
+    <ExperienceCard>
+      <p>Agosto de 2010 - Agosto de 2015</p>
+      <img src='http://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png' style={{height:120}}/>
+      <img src='http://status.lcc.ufcg.edu.br/logo.png' style={{height:120, marginLeft: 40}}/>
+      <h3>
+        Bacharelado em Ciências da Computação
+      </h3>
+    </ExperienceCard>
+
+    <ExperienceCard>
+      <p>Janeiro de 2009 - Julho de 2010 (Incompleto)</p>
+      <img src='http://www.uepb.edu.br/download/arquivos_para_download/marcas-uepbs/Marca-da-UEPB-Aplicacao-Colorida-em-PNG-4.png' style={{height:80}}/>
+      <h3>
+        Licenciatura em Ciências da Computação
+      </h3>
+      <p>Conhecimentos de algoritmo. Linguagem Pascal. Linguagem Java</p>
+    </ExperienceCard>
+
+    <div style={{pageBreakBefore: 'always'}}/>
 
     <h1>Habilidades</h1>
 
@@ -160,6 +190,11 @@ const IndexPage = () => (
     <a style={{margin:20, fontSize:70, color:'black'}} href="https://github.com/hemavidal" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
     <a style={{margin:20, fontSize:70, color:'black'}} href="https://stackoverflow.com/users/3108872/hem%C3%A3-vidal" target="_blank"><i className="fa fa-stack-overflow" aria-hidden="true"></i></a>
 
+    <br/>
+    <br/>
+    <h1>Contato</h1>
+
+    hemavidal@gmail.com
 
 
   </div>
